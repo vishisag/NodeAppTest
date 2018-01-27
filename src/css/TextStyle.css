@@ -1,0 +1,7 @@
+.positionHeaderTextCenter{
+    text-align: center;
+    align-self: center;
+    color:white;
+    padding-top: 17px;
+    position: relative;
+}

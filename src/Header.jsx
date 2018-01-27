@@ -1,16 +1,21 @@
+
 import React, { Component } from 'react';
-import './css/header.css';
+import './css/TextStyle.css';
+import './css/Header.css';
 
 class Header extends Component{
     render(){
         return(
-            <div>
-                <body>
-                <h3> Welcome to the test app </h3>
-                </body>
+            <nav className="navbar navbar-default navbar-fixed-top">
+            <div className="container headerTop">
+                <div className="navbar-header">
+                    <div className="navbar-brand positionHeaderTextCenter">Welcome to my test app    </div>
                 </div>
+            </div>
+        </nav>
         );
     }
 }
 
-export default Header 
+export default Header;
+    
